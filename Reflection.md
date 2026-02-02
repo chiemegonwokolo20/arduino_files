@@ -1,5 +1,5 @@
 
-#Refrection
+#Reflection
 
 For this assignment, I used an AI assistant(ChatGPT) to help me diagnose and complete a Neo Pixel sequence on the Adafruit Circuit Playground Express. The goal was straightforward on paper-create a red >green> blue chase across the 10 onboard LEDs, pausing between colors-but my original sketch had obvious and hidden problems. The AI’s role was to accelerate the “unblocking” work: it unpacked my uploaded project, inspected the .ino file, pointed out concrete syntax issues(missing semicolons and incomplete function calls), and then produced two clean, runnable sketches: one using Adafruit_NeoPixel directly and another using the higher-level Adafruit_CircuitPlayground library. Having those side-by-side options was particularly helpful because it made the trade-offs visible: more control with the Neo Pixel object vs. a slightly simpler API with the Circuit Playground helper.
 
